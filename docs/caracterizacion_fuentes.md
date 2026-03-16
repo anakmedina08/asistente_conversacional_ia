@@ -1,6 +1,6 @@
 ## Caracterización de la Fuente de Datos (ETL)
 
-Se detalla el origen y la estructura de los datos operativos utilizados para el entrenamiento y consulta del proyecto a realizar de un asistente conversacional basado en Inteligencia Artificial para el análisis y consulta de datos operativos en el sector asegurador.
+A continuacion se detalla los orígenes y estructuras operativas que sustentan el asistente conversacional que se va a desarrollar como proyecto. El sistema está diseñado para facilitar el análisis y la consulta de indicadores clave del sector asegurador mediante Inteligencia Artificial, garantizando la trazabilidad desde la extracción (ETL) hasta la interacción con el usuario..
 
 ---
 
