@@ -1,0 +1,5 @@
+Set-Location "c:\Users\1000467954\Documents\APIS\asistente_conversacional_IA"
+$env:DB_PROXY_HOST="localhost"
+$env:DB_PROXY_PORT="5436"
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\1000467954\Documents\cloudsql proxy\sb-xops-stage-asistente.json"
+python src\pipeline.py
