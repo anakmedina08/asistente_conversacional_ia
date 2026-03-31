@@ -1,5 +1,6 @@
 from extract import extract_siniestros
 from transform import transform_data_siniestros
+from load import load_siniestros_to_postgres
 
 
 def main():
@@ -14,6 +15,11 @@ def main():
     siniestros_csv = transform_data_siniestros(siniestros)
     print(f"Siniestros transformados y guardados en: {siniestros_csv}")
     print("Transformación de siniestros completada.")
+
+    if siniestros_csv:
+        print("Iniciando carga a Postgres...")
+        load_siniestros_to_postgres(siniestros_csv)
+        print("Carga a Postgres completada.")
 
     print("Pipeline de extracción de siniestros completada.")
 
